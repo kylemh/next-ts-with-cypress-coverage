@@ -19,3 +19,7 @@ npm run cypress open
 # or
 yarn cypress open
 ```
+
+## The Proof!
+
+![Screenshot of coverage report](./coverage_screenshot.png)
