@@ -1,3 +1,5 @@
+// keep file name different from any TS file within ~/cypress/support so they dont collide on compilation
+
 // in cypress/support/index.d.ts
 // load type definitions that come with Cypress module
 /// <reference types="cypress" />

@@ -30,6 +30,12 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+# cypress
+cypress/screenshots
+cypress/videos
+
 # coverage
 .nyc_output
+coverage
 cypress-coverage
+jest-coverage

@@ -1,9 +1,0 @@
-{
-  "extends": "../tsconfig.json",
-  "compilerOptions": {
-    "baseUrl": "../.",
-    "isolatedModules": false
-  },
-  "files": ["./support/index.d.ts"],
-  "include": ["**/*.ts", "../@types/*.d.ts"]
-}

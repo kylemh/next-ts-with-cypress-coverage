@@ -24,5 +24,12 @@
     "target": "ES5"
   },
   "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", ".next"]
+  "exclude": [
+    "node_modules",
+    ".next",
+    ".nyc_output",
+    "cypress-coverage",
+    "coverage",
+    "jest-coverage"
+  ]
 }
