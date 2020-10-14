@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "cypress": "cypress",
     "see-cy-coverage": "open ./cypress-coverage/lcov-report/index.html",
     "start": "next start"
   },
