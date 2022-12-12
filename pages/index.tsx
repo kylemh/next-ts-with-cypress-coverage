@@ -17,8 +17,8 @@ export default function Home() {
         </h1>
 
         <div className={styles.linkContainer}>
-          <Link href="/about">
-            <a data-testid="about_page_link">Try going to about page...</a>
+          <Link data-testid="about_page_link" href="/about">
+            Try going to about page...
           </Link>
           <>(you can't lol, idk)</>
         </div>
