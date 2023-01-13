@@ -1,9 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) for the express purpose of demonstrating Next.js, TypeScript, and Cypress working together with working coverage reports.
 
-# Older Versions
+## Older Versions
 
 You can see an example that should work with any combination of Next.js 9 thru 12 and Cypress 5 thru 9
 [here](https://github.com/kylemh/next-ts-with-cypress-coverage/tree/next9thru12-and-cypress5thru9).
+
+## Contributing
+
+Instructions on how to get started with this repo are below. Contributions we would love to receive:
+
+- An example without Babel. This would use the
+  [SWC Coverage Plugin](https://github.com/kwonoj/swc-plugin-coverage-instrument). The current examples all have a
+  slower build, slower dev server, and slower hot reload than Next.js applications that DONT use Babel.
+- An example using [Next.js's App Directory](https://beta.nextjs.org/docs/getting-started) and providing coverage for
+  server components.
 
 ## Getting Started
 
