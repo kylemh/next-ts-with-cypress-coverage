@@ -14,6 +14,8 @@ Instructions on how to get started with this repo are below. Contributions we wo
   slower build, slower dev server, and slower hot reload than Next.js applications that DONT use Babel.
 - An example using [Next.js's App Directory](https://beta.nextjs.org/docs/getting-started) and providing coverage for
   server components.
+- Use GitHub Actions to prove that coverage is outputting so that people can freely contribute without manual review on
+  their branch.
 
 ## Getting Started
 
